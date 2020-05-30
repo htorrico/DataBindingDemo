@@ -22,6 +22,7 @@ namespace DataBindingDemo
 
             Monkeys.Add(new Monkey
             {
+                Country="Perú",
                 Name = "Capuchin Monkey",
                 Location = "Central & South America",
                 Details = "The capuchin monkeys are New World monkeys of the subfamily Cebinae. Prior to 2011, the subfamily contained only a single genus, Cebus.",
@@ -30,6 +31,7 @@ namespace DataBindingDemo
 
             Monkeys.Add(new Monkey
             {
+                Country="Chile",
                 Name = "Blue Monkey",
                 Location = "Central and East Africa",
                 Details = "The blue monkey or diademed monkey is a species of Old World monkey native to Central and East Africa, ranging from the upper Congo River basin east to the East African Rift and south to northern Angola and Zambia",
@@ -38,6 +40,7 @@ namespace DataBindingDemo
 
             Monkeys.Add(new Monkey
             {
+                Country = "Chile",
                 Name = "Squirrel Monkey",
                 Location = "Central & South America",
                 Details = "The squirrel monkeys are the New World monkeys of the genus Saimiri. They are the only genus in the subfamily Saimirinae. The name of the genus Saimiri is of Tupi origin, and was also used as an English name by early researchers.",
@@ -46,6 +49,7 @@ namespace DataBindingDemo
 
             Monkeys.Add(new Monkey
             {
+                Country = "Chile",
                 Name = "Golden Lion Tamarin",
                 Location = "Brazil",
                 Details = "The golden lion tamarin also known as the golden marmoset, is a small New World monkey of the family Callitrichidae.",
@@ -54,6 +58,7 @@ namespace DataBindingDemo
 
             Monkeys.Add(new Monkey
             {
+                Country = "Chile",
                 Name = "Howler Monkey",
                 Location = "South America",
                 Details = "Howler monkeys are among the largest of the New World monkeys. Fifteen species are currently recognised. Previously classified in the family Cebidae, they are now placed in the family Atelidae.",
@@ -62,6 +67,7 @@ namespace DataBindingDemo
 
             Monkeys.Add(new Monkey
             {
+                Country = "Japón",
                 Name = "Japanese Macaque",
                 Location = "Japan",
                 Details = "The Japanese macaque, is a terrestrial Old World monkey species native to Japan. They are also sometimes known as the snow monkey because they live in areas where snow covers the ground for months each",

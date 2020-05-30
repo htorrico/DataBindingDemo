@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataBindingDemo.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace DataBindingDemo
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new Operaciones());
         }
 
         protected override void OnStart()

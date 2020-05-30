@@ -18,6 +18,9 @@
             <Slider x:Name="slider"
                 Maximum="360"
                 VerticalOptions="CenterAndExpand" />
+            <Label 
+                   BindingContext="{x:Reference Name=slider}"
+                   Text="{Binding Value, StringFormat='{0:F0}'}"></Label>
 
             <Label BindingContext="{x:Reference slider}"
                Text="{Binding Value, StringFormat='The angle is {0:F0} degrees'}"

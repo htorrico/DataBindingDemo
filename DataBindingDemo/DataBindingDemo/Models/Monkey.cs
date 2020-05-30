@@ -7,6 +7,7 @@ namespace DataBindingDemo
   
         public class Monkey
         {
+            public string Country { get; set; }
             public string Name { get; set; }
             public string Location { get; set; }
             public string Details { get; set; }

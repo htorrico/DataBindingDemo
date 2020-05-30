@@ -15,6 +15,12 @@
                     ItemsSource="{Binding Monkeys}" 
                     ItemDisplayBinding="{Binding Name}"
                     SelectedItem="{Binding SelectedMonkey}" />
+
+
+                <Button Text="{Binding SelectedMonkey.Country}" 
+                   HorizontalOptions="Center" 
+                   Style="{DynamicResource TitleStyle}" />
+
                 <Label Text="{Binding SelectedMonkey.Name}" 
                    HorizontalOptions="Center" 
                    Style="{DynamicResource TitleStyle}" />
