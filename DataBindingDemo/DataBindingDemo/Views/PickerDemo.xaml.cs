@@ -15,7 +15,7 @@ namespace DataBindingDemo
         public PickerDemo()
         {
             InitializeComponent();
-            BindingContext = new MonkeysPageViewModel();
+            this.BindingContext = new MonkeysPageViewModel();
         }
     }
 }

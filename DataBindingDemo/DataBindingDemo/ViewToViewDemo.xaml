@@ -15,16 +15,33 @@
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand" />
 
-            <Slider x:Name="slider"
-                Maximum="360"
-                VerticalOptions="CenterAndExpand" />
+            <Slider x:Name="slider" Maximum="360" VerticalOptions="CenterAndExpand"
+                    Value="10"
+                    />
 
+            <Entry BindingContext="{x:Reference slider}"
+                Text="{Binding Path=Value, Mode=OneWayToSource}"
+                   >
+            </Entry>
             <Label BindingContext="{x:Reference slider}"
-               Text="{Binding Value, StringFormat='The angle is {0:F0} degrees'}"
-               FontAttributes="Bold"
-               FontSize="Large"
-               HorizontalOptions="Center"
-               VerticalOptions="CenterAndExpand" />
+                   Text="Tecsup"
+                   FontSize="{Binding Path=Value}"
+                   >
+                
+            </Label>
+            <Label BindingContext="{x:Reference slider}"               
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   Text="{Binding Path=Value}"
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand" />
+            
+            <Editor BindingContext="{x:Reference slider}"               
+                   FontAttributes="Bold"
+                   FontSize="Large"                   
+                   Text="{Binding Path=Value, Mode=OneWayToSource}"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand" />
 
         </StackLayout>
     </ContentPage.Content>

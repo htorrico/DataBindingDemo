@@ -13,7 +13,12 @@
                     <DataTemplate>
                         <ViewCell>
                             <ViewCell.View>
-                                <Label Text="{Binding FriendlyName}" />
+                                <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                                <Label Text="{Binding FriendlyName}"
+                                       HorizontalOptions="Fill"
+                                       />
+                                    <Button BackgroundColor="{Binding Color}"/>
+                                </StackLayout>
                             </ViewCell.View>
                         </ViewCell>
                     </DataTemplate>
